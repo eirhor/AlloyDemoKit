@@ -1,0 +1,914 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Projects\AlloyDemoKit\src" t="IncludeFlat">
+      <e p="AlloyDemoKit" t="IncludeRecursive">
+        <e p="AddOns" t="Include">
+          <e p="Core" t="Include">
+            <e p="SearchAndReplace.aspx" t="Include" />
+            <e p="SearchAndReplace.aspx.cs" t="Include" />
+            <e p="SearchAndReplace.aspx.designer.cs" t="Include" />
+            <e p="TimeMachine.aspx" t="Include" />
+            <e p="TimeMachine.aspx.cs" t="Include" />
+            <e p="TimeMachine.aspx.designer.cs" t="Include" />
+          </e>
+        </e>
+        <e p="AdminTools" t="Include">
+          <e p="EmployeeSettings.aspx" t="Include" />
+          <e p="EmployeeSettings.aspx.cs" t="Include" />
+          <e p="EmployeeSettings.aspx.designer.cs" t="Include" />
+        </e>
+        <e p="AlloyDemoKit.csproj" t="IncludeRecursive" />
+        <e p="App_Data" t="Include">
+          <e p="DefaultSiteContent.episerverdata" t="Include" />
+        </e>
+        <e p="Areas" t="Include">
+          <e p="TvpDemo" t="Include">
+            <e p="Controllers" t="Include">
+              <e p="StartPageController.cs" t="Include" />
+            </e>
+            <e p="Models" t="Include">
+              <e p="StartPage.cs" t="Include" />
+            </e>
+            <e p="TvpDemoAreaRegistration.cs" t="Include" />
+            <e p="Views" t="Include">
+              <e p="Shared" t="Include" />
+              <e p="StartPage" t="Include">
+                <e p="Index.cshtml" t="Include" />
+              </e>
+              <e p="web.config" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Business" t="Include">
+          <e p="Blog" t="Include">
+            <e p="BlogPartialRouter.cs" t="Include" />
+            <e p="BlogTagInitialization.cs" t="Include" />
+            <e p="TagFactory.cs" t="Include" />
+            <e p="TagItem.cs" t="Include" />
+            <e p="TagRepository.cs" t="Include" />
+            <e p="TagScheduledJob.cs" t="Include" />
+          </e>
+          <e p="Channels" t="Include">
+            <e p="DisplayResolutionBase.cs" t="Include" />
+            <e p="DisplayResolutions.cs" t="Include" />
+            <e p="MobileChannel.cs" t="Include" />
+            <e p="WebChannel.cs" t="Include" />
+          </e>
+          <e p="ContentExtensions.cs" t="Include" />
+          <e p="ContentLocator.cs" t="Include" />
+          <e p="ContentProviders" t="Include">
+            <e p="ClonedContentProvider.cs" t="Include" />
+          </e>
+          <e p="Data" t="Include">
+            <e p="FileDataImporter.cs" t="Include" />
+            <e p="FileReader.cs" t="Include" />
+            <e p="IFileDataImporter.cs" t="Include" />
+          </e>
+          <e p="DDS" t="Include">
+            <e p="EmployeeSettingsHandler.cs" t="Include" />
+          </e>
+          <e p="EditorDescriptors" t="Include">
+            <e p="ContactPageSelectionFactory.cs" t="Include" />
+            <e p="ContactPageSelector.cs" t="Include" />
+            <e p="FontSelectionFactory.cs" t="Include" />
+            <e p="ParkingGarageSelector.cs" t="Include" />
+            <e p="ParkingSelectionFactory.cs" t="Include" />
+            <e p="StringListEditorDescriptor.cs" t="Include" />
+          </e>
+          <e p="EmailAddressAttribute.cs" t="Include" />
+          <e p="Employee" t="Include">
+            <e p="DataGenerator.cs" t="Include" />
+            <e p="EmployeeContainerLookup.cs" t="Include" />
+            <e p="EmployeeDataImportJob.cs" t="Include" />
+            <e p="EmployeeExpertiseSelectionFactory.cs" t="Include" />
+            <e p="EmployeeLocationSelectionFactory.cs" t="Include" />
+            <e p="EmployeeLocationSelector.cs" t="Include" />
+            <e p="EmployeeSettingsModel.cs" t="Include" />
+          </e>
+          <e p="FormKPI" t="Include">
+            <e p="FilledInFormKpi.cs" t="Include" />
+          </e>
+          <e p="Forms" t="Include">
+            <e p="FormEventsInitialization.cs" t="Include" />
+            <e p="FormFieldSelectionFactory.cs" t="Include" />
+          </e>
+          <e p="IModifyLayout.cs" t="Include" />
+          <e p="Initialization" t="Include">
+            <e p="BundleConfig.cs" t="Include" />
+            <e p="CustomizedRenderingInitialization.cs" t="Include" />
+            <e p="DependencyResolverInitialization.cs" t="Include" />
+            <e p="DisplayModesInitialization.cs" t="Include" />
+            <e p="DisplayRegistryInitialization.cs" t="Include" />
+            <e p="FileBasedEventsInitialization.cs" t="Include" />
+            <e p="FilterConfig.cs" t="Include" />
+            <e p="GlobalNewsContentProviderInitialization.cs" t="Include" />
+          </e>
+          <e p="PageContextActionFilter.cs" t="Include" />
+          <e p="PageTypeExtensions.cs" t="Include" />
+          <e p="PageViewContextFactory.cs" t="Include" />
+          <e p="Parking" t="Include">
+            <e p="City.cs" t="Include" />
+            <e p="OpeningTime.cs" t="Include" />
+            <e p="ParkingGarage.cs" t="Include" />
+            <e p="ParkingGateway.cs" t="Include" />
+            <e p="ParkingServer.cs" t="Include" />
+            <e p="ParkingStatus.cs" t="Include" />
+          </e>
+          <e p="PowerSlice" t="Include">
+            <e p="ArticleSlice.cs" t="Include" />
+            <e p="BlockSlice.cs" t="Include" />
+            <e p="BlogSlice.cs" t="Include" />
+            <e p="EverythingSlice.cs" t="Include" />
+            <e p="MyPagesSlice.cs" t="Include" />
+            <e p="NewsSlice.cs" t="Include" />
+            <e p="PagesSlice.cs" t="Include" />
+          </e>
+          <e p="QuickNavigator" t="Include">
+            <e p="AddAdminMode.cs" t="Include" />
+          </e>
+          <e p="Rendering" t="Include">
+            <e p="AlloyContentAreaRenderer.cs" t="Include" />
+            <e p="ErrorHandlingContentRenderer.cs" t="Include" />
+            <e p="IContainerPage.cs" t="Include" />
+            <e p="ICustomCssInContentArea.cs" t="Include" />
+            <e p="SiteViewEngine.cs" t="Include" />
+            <e p="TemplateCoordinator.cs" t="Include" />
+          </e>
+          <e p="ServiceLocatorDependencyResolver.cs" t="Include" />
+          <e p="SetupAdminAndUsersPage.cs" t="Include" />
+          <e p="UIDescriptors" t="Include">
+            <e p="ArticlePageUIDescriptor.cs" t="Include" />
+            <e p="BlogPageUIDescriptor.cs" t="Include" />
+            <e p="ContainerPageUIDescriptor.cs" t="Include" />
+            <e p="FileIconDescriptor.cs" t="Include" />
+            <e p="FindPageUIDescriptor.cs" t="Include" />
+            <e p="WeatherBlockUIDescriptor.cs" t="Include" />
+          </e>
+          <e p="VisitorGroupUIStyling" t="Include">
+            <e p="OutputProcessorActionFilterAttribute.cs" t="Include" />
+            <e p="OverrideVisitorGroupCss.cs" t="Include" />
+            <e p="OverrideVisitorGroupStylingInit.cs" t="Include" />
+          </e>
+        </e>
+        <e p="ClientResources" t="Include">
+          <e p="Images" t="Include">
+            <e p="icons" t="Include">
+              <e p="layoutIcons24x24.png" t="Include" />
+              <e p="pdf-icon16x16.png" t="Include" />
+              <e p="pdf-icon32x32.png" t="Include" />
+            </e>
+          </e>
+          <e p="Scripts" t="Include" />
+          <e p="Styles" t="Include">
+            <e p="ContentColabFix.css" t="Include" />
+            <e p="ContentIcons.css" t="Include" />
+            <e p="LayoutIcons.css" t="Include" />
+            <e p="Styles.css" t="Include" />
+          </e>
+        </e>
+        <e p="config" t="Include">
+          <e p="imageprocessor" t="Include">
+            <e p="cache.config" t="Include" />
+            <e p="processing.config" t="Include" />
+            <e p="security.config" t="Include" />
+          </e>
+        </e>
+        <e p="Controllers" t="Include">
+          <e p="BlogItemController.cs" t="Include" />
+          <e p="BlogListBlockController.cs" t="Include" />
+          <e p="BlogStartPageController.cs" t="Include" />
+          <e p="CarouselBlockController.cs" t="Include" />
+          <e p="ClosestLocationBlockController.cs" t="Include" />
+          <e p="ContactBlockController.cs" t="Include" />
+          <e p="DefaultPageController.cs" t="Include" />
+          <e p="EmployeeExpertiseController.cs" t="Include" />
+          <e p="EmployeeLocationPageController.cs" t="Include" />
+          <e p="EmployeeSearchPageController.cs" t="Include" />
+          <e p="FindPageController.cs" t="Include" />
+          <e p="ImageFileController.cs" t="Include" />
+          <e p="ImageGalleryBlockController.cs" t="Include" />
+          <e p="PageControllerBase.cs" t="Include" />
+          <e p="PageListBlockController.cs" t="Include" />
+          <e p="ParkingBlockController.cs" t="Include" />
+          <e p="PollResultsBlockController.cs" t="Include" />
+          <e p="PreviewController.cs" t="Include" />
+          <e p="ProfilePageController.cs" t="Include" />
+          <e p="RegisterController.cs" t="Include" />
+          <e p="RssReaderBlockController.cs" t="Include" />
+          <e p="StartPageController.cs" t="Include" />
+          <e p="TagCloudBlockController.cs" t="Include" />
+          <e p="VideoFileController.cs" t="Include" />
+          <e p="WeatherBlockController.cs" t="Include" />
+        </e>
+        <e p="EPiServerLog.config" t="Include" />
+        <e p="favicon.ico" t="Include" />
+        <e p="Global.asax" t="Include" />
+        <e p="Global.asax.cs" t="Include" />
+        <e p="Global.cs" t="Include" />
+        <e p="Helpers" t="Include">
+          <e p="CategorizableExtensions.cs" t="Include" />
+          <e p="GeoPosition.cs" t="Include" />
+          <e p="HtmlHelpers.cs" t="Include" />
+          <e p="UrlHelpers.cs" t="Include" />
+        </e>
+        <e p="Hunspellx64.dll" t="Include" />
+        <e p="Hunspellx86.dll" t="Include" />
+        <e p="Models" t="Include">
+          <e p="Blocks" t="Include">
+            <e p="BlogArchiveBlock.cs" t="Include" />
+            <e p="BlogListBlock.cs" t="Include" />
+            <e p="ButtonBlock.cs" t="Include" />
+            <e p="CallToActionBlock.cs" t="Include" />
+            <e p="CarouselBlock.cs" t="Include" />
+            <e p="CarouselItemBlock.cs" t="Include" />
+            <e p="ClosestLocationBlock.cs" t="Include" />
+            <e p="ContactBlock.cs" t="Include" />
+            <e p="EditorialBlock.cs" t="Include" />
+            <e p="FacebookBlock.cs" t="Include" />
+            <e p="FormElements" t="Include">
+              <e p="StyledTextBoxElementBlock.cs" t="Include" />
+            </e>
+            <e p="HeroBlock.cs" t="Include" />
+            <e p="ImageGalleryBlock.cs" t="Include" />
+            <e p="JumbotronBlock.cs" t="Include" />
+            <e p="LinkedInCompanyBlock.cs" t="Include" />
+            <e p="PageListBlock.cs" t="Include" />
+            <e p="ParkingBlock.cs" t="Include" />
+            <e p="PollResultsBlock.cs" t="Include" />
+            <e p="RssReaderBlock.cs" t="Include" />
+            <e p="SiteBlockData.cs" t="Include" />
+            <e p="SiteLogotypeBlock.cs" t="Include" />
+            <e p="TagCloudBlock.cs" t="Include" />
+            <e p="TeaserBlock.cs" t="Include" />
+            <e p="TwitterBlock.cs" t="Include" />
+            <e p="VimeoBlock.cs" t="Include" />
+            <e p="WeatherBlock.cs" t="Include" />
+            <e p="YouTubeBlock.cs" t="Include" />
+          </e>
+          <e p="Media" t="Include">
+            <e p="GenericMedia.cs" t="Include" />
+            <e p="IFileProperties.cs" t="Include" />
+            <e p="ImageFile.cs" t="Include" />
+            <e p="PDFFile.cs" t="Include" />
+            <e p="VideoFile.cs" t="Include" />
+          </e>
+          <e p="Pages" t="Include">
+            <e p="ArticlePage.cs" t="Include" />
+            <e p="Blog" t="Include">
+              <e p="BlogItemPage.cs" t="Include" />
+              <e p="BlogListPage.cs" t="Include" />
+              <e p="BlogStartPage.cs" t="Include" />
+            </e>
+            <e p="ContactPage.cs" t="Include" />
+            <e p="ContainerPage.cs" t="Include" />
+            <e p="EmployeeExpertise.cs" t="Include" />
+            <e p="EmployeeLocationPage.cs" t="Include" />
+            <e p="EmployeePage.cs" t="Include" />
+            <e p="EmployeeSearchPage.cs" t="Include" />
+            <e p="FindPage.cs" t="Include" />
+            <e p="IHasRelatedContent.cs" t="Include" />
+            <e p="ISearchPage.cs" t="Include" />
+            <e p="LandingPage.cs" t="Include" />
+            <e p="LocationPage.cs" t="Include" />
+            <e p="NewsPage.cs" t="Include" />
+            <e p="ProductPage.cs" t="Include" />
+            <e p="ProfilePage.cs" t="Include" />
+            <e p="SearchPage.cs" t="Include" />
+            <e p="SitePageData.cs" t="Include" />
+            <e p="StandardPage.cs" t="Include" />
+            <e p="StartPage.cs" t="Include" />
+            <e p="StartPageBase.cs" t="Include" />
+            <e p="ThreeColumnLandingPage.cs" t="Include" />
+            <e p="TwoColumnLandingPage.cs" t="Include" />
+          </e>
+          <e p="Register" t="Include" />
+          <e p="SiteContentType.cs" t="Include" />
+          <e p="SiteImageUrl.cs" t="Include" />
+          <e p="ViewModels" t="Include">
+            <e p="BlogItemPageModel.cs" t="Include" />
+            <e p="BlogListModel.cs" t="Include" />
+            <e p="CarouselViewModel.cs" t="Include" />
+            <e p="ClosestLocationViewModel.cs" t="Include" />
+            <e p="ContactBlockModel.cs" t="Include" />
+            <e p="ContentRenderingErrorModel.cs" t="Include" />
+            <e p="EmployeeSearchContentModel.cs" t="Include" />
+            <e p="FindPageViewModel.cs" t="Include" />
+            <e p="FindSearchContentModel.cs" t="Include" />
+            <e p="ImageViewModel.cs" t="Include" />
+            <e p="IPageViewModel.cs" t="Include" />
+            <e p="LayoutModel.cs" t="Include" />
+            <e p="PageListModel.cs" t="Include" />
+            <e p="PageViewModel.cs" t="Include" />
+            <e p="ParkingViewModel.cs" t="Include" />
+            <e p="PollResultsBlockViewModel.cs" t="Include" />
+            <e p="PreviewModel.cs" t="Include" />
+            <e p="ProfilePageViewModel.cs" t="Include" />
+            <e p="RssReaderBlockViewModel.cs" t="Include" />
+            <e p="SearchContentModel.cs" t="Include" />
+            <e p="SearchHit.cs" t="Include" />
+            <e p="TagCloudModel.cs" t="Include" />
+            <e p="VideoViewModel.cs" t="Include" />
+            <e p="WeatherBlockViewModel.cs" t="Include" />
+          </e>
+        </e>
+        <e p="module.config" t="Include" />
+        <e p="modules" t="Include">
+          <e p="_protected" t="Include">
+            <e p="BVNetwork.404Handler" t="Include">
+              <e p="BVNetwork.404Handler.zip" t="Include" />
+            </e>
+            <e p="CMS" t="Include">
+              <e p="CMS.zip" t="Include" />
+              <e p="web.config" t="Include" />
+            </e>
+            <e p="DbLocalizationProvider.AdminUI.EPiServer" t="Include">
+              <e p="DbLocalizationProvider.AdminUI.EPiServer.zip" t="Include" />
+              <e p="web.config" t="Include" />
+            </e>
+            <e p="EPiServer.Cms.AddOns.Blocks" t="Include">
+              <e p="EPiServer.Cms.AddOns.Blocks.zip" t="Include" />
+              <e p="module.config" t="Include" />
+            </e>
+            <e p="EPiServer.Cms.TinyMce" t="Include">
+              <e p="EPiServer.Cms.TinyMce.zip" t="Include" />
+              <e p="web.config" t="Include" />
+            </e>
+            <e p="EPiServer.Forms" t="Include">
+              <e p="EPiServer.Forms.zip" t="Include" />
+              <e p="Forms.config" t="Include" />
+              <e p="Views" t="Include">
+                <e p="ElementBlocks" t="Include">
+                  <e p="web.config" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="EPiServer.Forms.Samples" t="Include">
+              <e p="3.4.0" t="Include">
+                <e p="ClientResources" t="Include">
+                  <e p="Criteria" t="Include">
+                    <e p="SubmittedValue.js" t="Include" />
+                  </e>
+                  <e p="epi-formssamples" t="Include">
+                    <e p="FormsSamplesModule.js" t="Include" />
+                    <e p="themes" t="Include">
+                      <e p="sleek" t="Include">
+                        <e p="FormsSamples.css" t="Include" />
+                        <e p="Images" t="Include">
+                          <e p="contenttypes" t="Include">
+                            <e p="AddressesElementBlock.png" t="Include" />
+                            <e p="DateTimeElementBlock.png" t="Include" />
+                            <e p="DateTimeRangeElementBlock.png" t="Include" />
+                            <e p="RecaptchaElementBlock.png" t="Include" />
+                          </e>
+                          <e p="formIcons16x16.png" t="Include" />
+                        </e>
+                      </e>
+                    </e>
+                  </e>
+                  <e p="ViewMode" t="Include">
+                    <e p="AddressesElementBlock.js" t="Include" />
+                    <e p="DateTimeElementBlock.js" t="Include" />
+                    <e p="datetimepicker.modified.js" t="Include" />
+                    <e p="EPiServerFormsSamples.css" t="Include" />
+                    <e p="EPiServerFormsSamples.js" t="Include" />
+                    <e p="Images" t="Include">
+                      <e p="ui-bg_diagonals-thick_18_b81900_40x40.png" t="Include" />
+                      <e p="ui-bg_diagonals-thick_20_666666_40x40.png" t="Include" />
+                      <e p="ui-bg_flat_10_000000_40x100.png" t="Include" />
+                      <e p="ui-bg_glass_100_f6f6f6_1x400.png" t="Include" />
+                      <e p="ui-bg_glass_100_fdf5ce_1x400.png" t="Include" />
+                      <e p="ui-bg_glass_65_ffffff_1x400.png" t="Include" />
+                      <e p="ui-bg_gloss-wave_35_f6a828_500x100.png" t="Include" />
+                      <e p="ui-bg_highlight-soft_100_eeeeee_1x100.png" t="Include" />
+                      <e p="ui-bg_highlight-soft_75_ffe45c_1x100.png" t="Include" />
+                      <e p="ui-icons_222222_256x240.png" t="Include" />
+                      <e p="ui-icons_228ef1_256x240.png" t="Include" />
+                      <e p="ui-icons_ef8c08_256x240.png" t="Include" />
+                      <e p="ui-icons_ffd27a_256x240.png" t="Include" />
+                      <e p="ui-icons_ffffff_256x240.png" t="Include" />
+                    </e>
+                    <e p="jquery-ui.min.css" t="Include" />
+                    <e p="jquery-ui.modified.js" t="Include" />
+                    <e p="jquery-ui.structure.min.css" t="Include" />
+                    <e p="jquery-ui.theme.min.css" t="Include" />
+                    <e p="RecaptchaElementBlock.js" t="Include" />
+                  </e>
+                </e>
+              </e>
+              <e p="EmbeddedLangFiles" t="Include">
+                <e p="EPiServer.Forms.Samples_DA.xml" t="Include" />
+                <e p="EPiServer.Forms.Samples_DE.xml" t="Include" />
+                <e p="EPiServer.Forms.Samples_EN.xml" t="Include" />
+                <e p="EPiServer.Forms.Samples_EN_newtext.xml" t="Include" />
+                <e p="EPiServer.Forms.Samples_ES.xml" t="Include" />
+                <e p="EPiServer.Forms.Samples_FI.xml" t="Include" />
+                <e p="EPiServer.Forms.Samples_FR.xml" t="Include" />
+                <e p="EPiServer.Forms.Samples_IT.xml" t="Include" />
+                <e p="EPiServer.Forms.Samples_JA.xml" t="Include" />
+                <e p="EPiServer.Forms.Samples_NL.xml" t="Include" />
+                <e p="EPiServer.Forms.Samples_NO.xml" t="Include" />
+                <e p="EPiServer.Forms.Samples_SV.xml" t="Include" />
+                <e p="EPiServer.Forms.Samples_ZH.xml" t="Include" />
+              </e>
+              <e p="module.config" t="Include" />
+              <e p="Views" t="Include">
+                <e p="ElementBlocks" t="Include">
+                  <e p="AddressesElementBlock.ascx" t="Include" />
+                  <e p="DateTimeElementBlock.ascx" t="Include" />
+                  <e p="DateTimeRangeElementBlock.ascx" t="Include" />
+                  <e p="RecaptchaElementBlock.ascx" t="Include" />
+                  <e p="web.config" t="Include" />
+                </e>
+                <e p="Shared" t="Include">
+                  <e p="EditorTemplates" t="Include">
+                    <e p="FormModel.ascx" t="Include" />
+                  </e>
+                </e>
+              </e>
+            </e>
+            <e p="EPiServer.Forms.UI" t="Include">
+              <e p="EPiServer.Forms.UI.zip" t="Include" />
+            </e>
+            <e p="EPiServer.GoogleAnalytics" t="Include">
+              <e p="EPiServer.GoogleAnalytics.zip" t="Include" />
+              <e p="EPiServerGoogleAnalytics.config" t="Include" />
+              <e p="Views" t="Include">
+                <e p="web.config" t="Include" />
+              </e>
+            </e>
+            <e p="EPiServer.Labs.LanguageManager" t="Include" />
+            <e p="EPiServer.Marketing.Testing" t="Include">
+              <e p="abcapture" t="Include">
+                <e p="capture.js" t="Include" />
+                <e p="phantomjs.exe" t="Include" />
+              </e>
+              <e p="EPiServer.Marketing.Testing.zip" t="Include" />
+            </e>
+            <e p="EPiServer.Social" t="Include">
+              <e p="EPiServer.Social.zip" t="Include" />
+              <e p="EPiServerSocial.config" t="Include" />
+              <e p="module.config" t="Include" />
+              <e p="Views" t="Include">
+                <e p="web.config" t="Include" />
+              </e>
+            </e>
+            <e p="EPiServer.TinyMCESpellChecker" t="Include">
+              <e p="EPiServer.TinyMCESpellChecker.zip" t="Include" />
+              <e p="module.config" t="Include" />
+            </e>
+            <e p="EPiServer.VisitorGroupsCriteriaPack" t="Include">
+              <e p="EPiServer.VisitorGroupsCriteriaPack.zip" t="Include" />
+            </e>
+            <e p="Shell" t="Include">
+              <e p="Shell.zip" t="Include" />
+              <e p="web.config" t="Include" />
+            </e>
+            <e p="TedGustaf.Episerver.GoogleMapsEditor" t="Include">
+              <e p="TedGustaf.Episerver.GoogleMapsEditor.zip" t="Include" />
+            </e>
+          </e>
+          <e p="AppleWatchChannel" t="Include">
+            <e p="ClientResources" t="Include">
+              <e p="AppleWatch" t="Include">
+                <e p="AppleWatch.css" t="Include" />
+                <e p="applewatch.png" t="Include" />
+              </e>
+            </e>
+            <e p="module.config" t="Include" />
+            <e p="Views" t="Include">
+              <e p="Pages" t="Include">
+                <e p="AppleWatch.cshtml" t="Include" />
+              </e>
+              <e p="web.config" t="Include" />
+            </e>
+          </e>
+          <e p="Geta.SEO.Sitemaps" t="Include">
+            <e p="AdminManageSitemap.aspx" t="Include" />
+          </e>
+          <e p="POSSIBLE.RobotsTxtHandler" t="Include">
+            <e p="Views" t="Include">
+              <e p="RobotsTxtAdmin" t="Include">
+                <e p="Index.aspx" t="Include" />
+              </e>
+              <e p="Shared" t="Include">
+                <e p="AdminPlugin.Master" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="TextTVChannel" t="Include">
+            <e p="ClientResources" t="Include">
+              <e p="TextTV" t="Include">
+                <e p="texttv-background.png" t="Include" />
+                <e p="TextTv.css" t="Include" />
+                <e p="texttv.png" t="Include" />
+              </e>
+            </e>
+            <e p="module.config" t="Include" />
+            <e p="Views" t="Include">
+              <e p="Pages" t="Include">
+                <e p="TextTV.cshtml" t="Include" />
+              </e>
+              <e p="web.config" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="NotFound.aspx" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="Static" t="Include">
+          <e p="css" t="Include">
+            <e p="bootstrap-collapse.js" t="Include" />
+            <e p="bootstrap-responsive.css" t="Include" />
+            <e p="bootstrap.css" t="Include" />
+            <e p="editmode.css" t="Include" />
+            <e p="editor.css" t="Include" />
+            <e p="icons" t="Include">
+              <e p="alert.png" t="Include" />
+              <e p="arrow-left.png" t="Include" />
+              <e p="arrow-right.png" t="Include" />
+              <e p="email.png" t="Include" />
+              <e p="message.png" t="Include" />
+              <e p="name.png" t="Include" />
+              <e p="postbox.png" t="Include" />
+              <e p="submit.png" t="Include" />
+            </e>
+            <e p="media.css" t="Include" />
+            <e p="style.css" t="Include" />
+            <e p="VisitorGroupUIOverrides.css" t="Include" />
+          </e>
+          <e p="fancyapps-fancyBox-3a66a9b" t="Include">
+            <e p="CHANGELOG.md" t="Include" />
+            <e p="demo" t="Include">
+              <e p="1_b.jpg" t="Include" />
+              <e p="1_s.jpg" t="Include" />
+              <e p="2_b.jpg" t="Include" />
+              <e p="2_s.jpg" t="Include" />
+              <e p="3_b.jpg" t="Include" />
+              <e p="3_s.jpg" t="Include" />
+              <e p="4_b.jpg" t="Include" />
+              <e p="4_s.jpg" t="Include" />
+              <e p="5_b.jpg" t="Include" />
+              <e p="5_s.jpg" t="Include" />
+              <e p="ajax.txt" t="Include" />
+              <e p="iframe.html" t="Include" />
+              <e p="index.html" t="Include" />
+            </e>
+            <e p="lib" t="Include">
+              <e p="jquery-1.7.2.min.js" t="Include" />
+              <e p="jquery.mousewheel-3.0.6.pack.js" t="Include" />
+            </e>
+            <e p="README.md" t="Include" />
+            <e p="source" t="Include">
+              <e p="blank.gif" t="Include" />
+              <e p="fancybox_loading.gif" t="Include" />
+              <e p="fancybox_sprite.png" t="Include" />
+              <e p="Helpers" t="Include">
+                <e p="fancybox_buttons.png" t="Include" />
+                <e p="jquery.fancybox-buttons.css" t="Include" />
+                <e p="jquery.fancybox-buttons.js" t="Include" />
+                <e p="jquery.fancybox-media.js" t="Include" />
+                <e p="jquery.fancybox-thumbs.css" t="Include" />
+                <e p="jquery.fancybox-thumbs.js" t="Include" />
+              </e>
+              <e p="jquery.fancybox.css" t="Include" />
+              <e p="jquery.fancybox.js" t="Include" />
+              <e p="jquery.fancybox.pack.js" t="Include" />
+            </e>
+          </e>
+          <e p="gfx" t="Include">
+            <e p="block-thumbnail-parking.png" t="Include" />
+            <e p="block-type-thumbnail-rss.png" t="Include" />
+            <e p="carouselbackground.png" t="Include" />
+            <e p="contact.jpg" t="Include" />
+            <e p="exampelspan4.png" t="Include" />
+            <e p="experts.png" t="Include" />
+            <e p="fallows-media-wide.jpg" t="Include" />
+            <e p="icons" t="Include">
+              <e p="Blocks" t="Include">
+                <e p="CMS-icon-block-02.png" t="Include" />
+                <e p="CMS-icon-block-03.png" t="Include" />
+                <e p="CMS-icon-block-04.png" t="Include" />
+                <e p="CMS-icon-block-05.png" t="Include" />
+                <e p="CMS-icon-block-06.png" t="Include" />
+                <e p="CMS-icon-block-07.png" t="Include" />
+                <e p="CMS-icon-block-08.png" t="Include" />
+                <e p="CMS-icon-block-09.png" t="Include" />
+                <e p="CMS-icon-block-10.png" t="Include" />
+                <e p="CMS-icon-block-11.png" t="Include" />
+                <e p="CMS-icon-block-12.png" t="Include" />
+                <e p="CMS-icon-block-13.png" t="Include" />
+                <e p="CMS-icon-block-14.png" t="Include" />
+                <e p="CMS-icon-block-15.png" t="Include" />
+                <e p="CMS-icon-block-16.png" t="Include" />
+                <e p="CMS-icon-block-17.png" t="Include" />
+                <e p="CMS-icon-block-18.png" t="Include" />
+                <e p="CMS-icon-block-19.png" t="Include" />
+                <e p="CMS-icon-block-20.png" t="Include" />
+                <e p="CMS-icon-block-21.png" t="Include" />
+                <e p="CMS-icon-block-22.png" t="Include" />
+                <e p="CMS-icon-block-23.png" t="Include" />
+                <e p="CMS-icon-block-24.png" t="Include" />
+                <e p="CMS-icon-block-25.png" t="Include" />
+                <e p="CMS-icon-block-26.png" t="Include" />
+                <e p="CMS-icon-block-27.png" t="Include" />
+                <e p="CMS-icon-block-28.png" t="Include" />
+                <e p="CMS-icon-block-29.png" t="Include" />
+              </e>
+              <e p="CMS-icon-index.png" t="Include" />
+              <e p="Pages" t="Include">
+                <e p="CMS-icon-page-02.png" t="Include" />
+                <e p="CMS-icon-page-03.png" t="Include" />
+                <e p="CMS-icon-page-04.png" t="Include" />
+                <e p="CMS-icon-page-05.png" t="Include" />
+                <e p="CMS-icon-page-06.png" t="Include" />
+                <e p="CMS-icon-page-07.png" t="Include" />
+                <e p="CMS-icon-page-08.png" t="Include" />
+                <e p="CMS-icon-page-09.png" t="Include" />
+                <e p="CMS-icon-page-10.png" t="Include" />
+                <e p="CMS-icon-page-11.png" t="Include" />
+                <e p="CMS-icon-page-12.png" t="Include" />
+                <e p="CMS-icon-page-13.png" t="Include" />
+                <e p="CMS-icon-page-14.png" t="Include" />
+                <e p="CMS-icon-page-15.png" t="Include" />
+                <e p="CMS-icon-page-16.png" t="Include" />
+                <e p="CMS-icon-page-17.png" t="Include" />
+                <e p="CMS-icon-page-18.png" t="Include" />
+                <e p="CMS-icon-page-19.png" t="Include" />
+                <e p="CMS-icon-page-20.png" t="Include" />
+                <e p="CMS-icon-page-21.png" t="Include" />
+                <e p="CMS-icon-page-22.png" t="Include" />
+                <e p="CMS-icon-page-23.png" t="Include" />
+                <e p="CMS-icon-page-24.png" t="Include" />
+                <e p="CMS-icon-page-25.png" t="Include" />
+                <e p="CMS-icon-page-26.png" t="Include" />
+                <e p="CMS-icon-page-27.png" t="Include" />
+                <e p="CMS-icon-page-28.png" t="Include" />
+              </e>
+            </e>
+            <e p="leader.png" t="Include" />
+            <e p="leader2.png" t="Include" />
+            <e p="logotype.png" t="Include" />
+            <e p="meet.jpg" t="Include" />
+            <e p="Multimedia-thumbnail.png" t="Include" />
+            <e p="New_FDT_Press_Contact_.JPG" t="Include" />
+            <e p="page-type-thumbnail-article.png" t="Include" />
+            <e p="page-type-thumbnail-contact.png" t="Include" />
+            <e p="page-type-thumbnail-landingpage-onecol.png" t="Include" />
+            <e p="page-type-thumbnail-landingpage-threecol.png" t="Include" />
+            <e p="page-type-thumbnail-landingpage-twocol.png" t="Include" />
+            <e p="page-type-thumbnail-product.png" t="Include" />
+            <e p="page-type-thumbnail-standard.png" t="Include" />
+            <e p="page-type-thumbnail-weather.png" t="Include" />
+            <e p="page-type-thumbnail.png" t="Include" />
+            <e p="person.png" t="Include" />
+            <e p="plan.jpg" t="Include" />
+            <e p="play.png" t="Include" />
+            <e p="playInactive.png" t="Include" />
+            <e p="productLandingv2.png" t="Include" />
+            <e p="searchbutton.png" t="Include" />
+            <e p="searchbuttonsmall.png" t="Include" />
+            <e p="track.jpg" t="Include" />
+          </e>
+          <e p="html" t="Include">
+            <e p="error.htm" t="Include" />
+          </e>
+          <e p="img" t="Include">
+            <e p="glyphicons-halflings-white.png" t="Include" />
+            <e p="glyphicons-halflings.png" t="Include" />
+          </e>
+          <e p="js" t="Include">
+            <e p="bootstrap.js" t="Include" />
+            <e p="jquery.js" t="Include" />
+          </e>
+          <e p="jwplayer" t="Include">
+            <e p="jwplayer.js" t="Include" />
+            <e p="player.swf" t="Include" />
+            <e p="preview.jpg" t="Include" />
+            <e p="video.mp4" t="Include" />
+          </e>
+          <e p="lightbox" t="Include">
+            <e p="css" t="Include">
+              <e p="jquery.lightbox-0.5.css" t="Include" />
+            </e>
+            <e p="Images" t="Include">
+              <e p="lightbox-blank.gif" t="Include" />
+              <e p="lightbox-btn-close.gif" t="Include" />
+              <e p="lightbox-btn-next.gif" t="Include" />
+              <e p="lightbox-btn-prev.gif" t="Include" />
+              <e p="lightbox-ico-loading.gif" t="Include" />
+            </e>
+            <e p="index.htm" t="Include" />
+            <e p="js" t="Include">
+              <e p="jquery.js" t="Include" />
+              <e p="jquery.lightbox-0.5.js" t="Include" />
+              <e p="jquery.lightbox-0.5.min.js" t="Include" />
+              <e p="jquery.lightbox-0.5.pack.js" t="Include" />
+            </e>
+            <e p="photos" t="Include">
+              <e p="image1.jpg" t="Include" />
+              <e p="image2.jpg" t="Include" />
+              <e p="image3.jpg" t="Include" />
+              <e p="image4.jpg" t="Include" />
+              <e p="image5.jpg" t="Include" />
+              <e p="thumb_image1.jpg" t="Include" />
+              <e p="thumb_image2.jpg" t="Include" />
+              <e p="thumb_image3.jpg" t="Include" />
+              <e p="thumb_image4.jpg" t="Include" />
+              <e p="thumb_image5.jpg" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Views" t="Include">
+          <e p="_viewstart.cshtml" t="Include" />
+          <e p="ArticlePage" t="Include">
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="BlogItem" t="Include">
+            <e p="Full.cshtml" t="Include" />
+            <e p="Preview.cshtml" t="Include" />
+          </e>
+          <e p="BlogItemPage" t="Include">
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="BlogListBlock" t="Include">
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="BlogListPage" t="Include">
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="BlogStartPage" t="Include">
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="ContactBlock" t="Include">
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="EmployeeExpertise" t="Include">
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="EmployeeLocationPage" t="Include">
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="EmployeePage" t="Include">
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="EmployeeSearchPage" t="Include">
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="FindPage" t="Include">
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="ImageFile" t="Include">
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="ImageGalleryBlock" t="Include">
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="LandingPage" t="Include">
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="LocationPage" t="Include">
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="NewsPage" t="Include">
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="PageListBlock" t="Include">
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="ParkingBlock" t="Include">
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="PollResultsBlock" t="Include">
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="Preview" t="Include">
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="ProductPage" t="Include">
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="ProfilePage" t="Include">
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="RssReaderBlock" t="Include">
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="SearchPage" t="Include">
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="Shared" t="Include">
+            <e p="Blocks" t="Include">
+              <e p="BlogArchiveBlock.cshtml" t="Include" />
+              <e p="ButtonBlock.cshtml" t="Include" />
+              <e p="CallToActionBlock.cshtml" t="Include" />
+              <e p="Carousel.cshtml" t="Include" />
+              <e p="CarouselItemBlock.cshtml" t="Include" />
+              <e p="ClosestLocation.cshtml" t="Include" />
+              <e p="EditorialBlock.cshtml" t="Include" />
+              <e p="FormBlock.cshtml" t="Include" />
+              <e p="HeroBlock.cshtml" t="Include" />
+              <e p="JumbotronBlockWide.cshtml" t="Include" />
+              <e p="NoRenderer.cshtml" t="Include" />
+              <e p="PDFFile.cshtml" t="Include" />
+              <e p="SiteLogotypeBlock.cshtml" t="Include" />
+              <e p="TeaserBlock.cshtml" t="Include" />
+              <e p="TeaserBlockWide.cshtml" t="Include" />
+              <e p="VimeoBlock.cshtml" t="Include" />
+              <e p="WeatherDisplay.cshtml" t="Include" />
+              <e p="YouTubeBlock.cshtml" t="Include" />
+            </e>
+            <e p="Breadcrumbs.cshtml" t="Include" />
+            <e p="DisplayTemplates" t="Include">
+              <e p="ContactPage.cshtml" t="Include" />
+              <e p="DateTime.cshtml" t="Include" />
+              <e p="Image.cshtml" t="Include" />
+              <e p="StringsCollection.cshtml" t="Include" />
+            </e>
+            <e p="ElementBlocks" t="Include">
+              <e p="StyledTextBoxElementBlock.cshtml" t="Include" />
+              <e p="web.config" t="Include" />
+            </e>
+            <e p="Footer.cshtml" t="Include" />
+            <e p="Header.cshtml" t="Include" />
+            <e p="LanguageSelector.cshtml" t="Include" />
+            <e p="Layouts" t="Include">
+              <e p="_LeftNavigation.cshtml" t="Include" />
+              <e p="_Root.cshtml" t="Include" />
+              <e p="_TwoPlusOne.cshtml" t="Include" />
+            </e>
+            <e p="PagePartials" t="Include">
+              <e p="ContactPage.cshtml" t="Include" />
+              <e p="ContactPageWide.cshtml" t="Include" />
+              <e p="Page.cshtml" t="Include" />
+              <e p="PageWide.cshtml" t="Include" />
+            </e>
+            <e p="Readonly.cshtml" t="Include" />
+            <e p="SubNavigation.cshtml" t="Include" />
+            <e p="TemplateError.cshtml" t="Include" />
+            <e p="TemplateHint.cshtml" t="Include" />
+          </e>
+          <e p="StandardPage" t="Include">
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="StartPage" t="Include">
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="TagCloudBlock" t="Include">
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="ThreeColumnLandingPage" t="Include">
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="TwoColumnLandingPage" t="Include">
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="VideoFile" t="Include">
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="web.config" t="Include" />
+        </e>
+        <e p="web.config" t="Include" />
+        <e p="Web.Debug.config" t="Include" />
+        <e p="Web.Release.config" t="Include" />
+      </e>
+      <e p="AlloyDemoKit.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="WeatherService" t="IncludeRecursive">
+        <e p="ApiConstants.cs" t="Include" />
+        <e p="app.config" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Enums.cs" t="Include" />
+        <e p="Epoch2Datetime.cs" t="Include" />
+        <e p="Models" t="Include">
+          <e p="City.cs" t="Include" />
+          <e p="Clouds.cs" t="Include" />
+          <e p="Coordinates.cs" t="Include" />
+          <e p="CurrentWeather.cs" t="Include" />
+          <e p="CurrentWeatherData.cs" t="Include" />
+          <e p="ForecastItem.cs" t="Include" />
+          <e p="ForecastWeatherData.cs" t="Include" />
+          <e p="Main.cs" t="Include" />
+          <e p="Rain.cs" t="Include" />
+          <e p="Snow.cs" t="Include" />
+          <e p="Sys.cs" t="Include" />
+          <e p="Weather.cs" t="Include" />
+          <e p="Wind.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="OpenWeathermapApiClient.cs" t="Include" />
+        <e p="packages.config" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="WeatherService.csproj" t="IncludeRecursive" />
+      </e>
+    </e>
+    <e p="C:\Users\Eirik Horvath\.Rider2018.1\system\resharper-host\local\Transient\ReSharperHost\v12\SolutionCaches\_AlloyDemoKit.-2016466613.00" t="ExcludeRecursive" />
+  </component>
+</project>

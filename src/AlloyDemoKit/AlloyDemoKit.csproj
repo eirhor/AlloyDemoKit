@@ -467,6 +467,9 @@
     <Compile Include="AdminTools\EmployeeSettings.aspx.designer.cs">
       <DependentUpon>EmployeeSettings.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Areas\TvpDemo\Controllers\StartPageController.cs" />
+    <Compile Include="Areas\TvpDemo\Models\StartPage.cs" />
+    <Compile Include="Areas\TvpDemo\TvpDemoAreaRegistration.cs" />
     <Compile Include="Business\Blog\BlogPartialRouter.cs" />
     <Compile Include="Business\Blog\BlogTagInitialization.cs" />
     <Compile Include="Business\Blog\TagFactory.cs" />
@@ -631,6 +634,7 @@
     <Compile Include="Models\Pages\SitePageData.cs" />
     <Compile Include="Models\Pages\StandardPage.cs" />
     <Compile Include="Models\Pages\StartPage.cs" />
+    <Compile Include="Models\Pages\StartPageBase.cs" />
     <Compile Include="Models\Pages\ThreeColumnLandingPage.cs" />
     <Compile Include="Models\Pages\TwoColumnLandingPage.cs" />
     <Compile Include="Models\SiteContentType.cs" />
@@ -672,6 +676,7 @@
     <Content Include="AddOns\Core\SearchAndReplace.aspx" />
     <Content Include="AddOns\Core\TimeMachine.aspx" />
     <Content Include="AdminTools\EmployeeSettings.aspx" />
+    <Content Include="Areas\TvpDemo\Views\StartPage\Index.cshtml" />
     <Content Include="ClientResources\Images\icons\pdf-icon16x16.png" />
     <Content Include="ClientResources\Images\icons\pdf-icon32x32.png" />
     <Content Include="ClientResources\Styles\ContentColabFix.css" />
@@ -689,6 +694,7 @@
     <Content Include="config\imageprocessor\cache.config">
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="Areas\TvpDemo\Views\web.config" />
     <None Include="Hunspellx64.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
@@ -1056,6 +1062,9 @@
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Areas\TvpDemo\Controllers\" />
+    <Folder Include="Areas\TvpDemo\Models\" />
+    <Folder Include="Areas\TvpDemo\Views\Shared\" />
     <Folder Include="ClientResources\Scripts\" />
     <Folder Include="Models\Register\" />
     <Folder Include="modules\_protected\EPiServer.Labs.LanguageManager\" />

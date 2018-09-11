@@ -38,7 +38,7 @@ namespace AlloyDemoKit.Business
                 startPageContentLink = currentContentLink;
             }
 
-            var startPage = _contentLoader.Get<StartPage>(startPageContentLink);
+            var startPage = _contentLoader.Get<StartPageBase>(startPageContentLink);
 
             return new LayoutModel
                 {
